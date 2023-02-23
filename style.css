@@ -1,0 +1,180 @@
+body{
+ display: inline-grid;
+ grid-template: 200px 200px 200px 237px/ 220px 450px 450px 180px;
+}
+
+.Dashboard{
+ background-color:#0ea5e9;
+ margin:-8px;
+ padding-left:10px;
+ color:white;
+ grid-area:1 / 1 / 5/ 2;
+}
+.Dashboard img{
+ width:25px;
+ filter:brightness(100%) invert(100%);
+}
+.Dashboard button{
+ border:none;
+ color:white;
+ margin:5px;
+ background-color:#0ea5e9;
+ cursor:pointer;
+ font-size:25px;
+}
+
+.Dashboard button:hover{
+ background-color:#0369a1;
+ width:170px;
+}
+
+.Top{
+ grid-area:1 /2 / 2/ 5;
+ margin:-8px;
+ padding:10px 30px 10px 30px;
+}
+
+.Top .search{
+ border:none;
+ background-color:white;
+ cursor:pointer;
+ width:30px;
+}
+
+.Top input{
+ width:60%;
+ height:25%;
+ padding:10px;
+ margin-top:10px;
+ border-radius:15px;
+}
+
+.Top .bell{
+ border:none;
+ background-color:white;
+ cursor:pointer;
+ width:30px;
+ margin-left:50px;
+}
+
+form{
+ display:flex;
+}
+
+.Top .prof {
+ display:flex;
+ font-size:20px;
+}
+
+.Top .prof .prof1 {
+ width:60px;
+ height:60px;
+}
+
+.Top .prof2{
+ width:70px;
+ height:70px;
+}
+
+.Top .bar{
+ display:flex;
+}
+
+.Top .bar button{
+ border:none;
+ color:white;
+ font-size:18px;
+ border-radius:20px;
+ background-color:#0ea5e9;
+ cursor:pointer;
+ margin:20px;
+ padding:10px 22px;
+}
+
+.Content{
+ grid-area:2 /2 / 5/ 5;
+ background-color:#d1d5db;
+ margin:0px -8px -8px 8px;
+ padding:20px 30px 30px 20px;
+ display:inline-grid;
+ grid-template:200px 200px 100px/350px 400px 280px;
+}
+
+.Content .Project{
+ display:inline-grid;
+ grid-template:190px 150px 190px/350px 350px 350px;
+ grid-gap:20px;
+}
+
+.Content .Project .box1{
+ grid-area:1 / 1/ 2/ 2;
+ background-color:white;
+ border-left: 8px solid #facc15;
+ border-radius:10px;
+ padding:30px 20px;
+}
+
+.Content .Project .box2{
+ grid-area:1 /2 / 2/ 3;
+ background-color:white;
+ border-left: 8px solid #facc15;
+ border-radius:10px;
+ padding:30px 20px;
+}
+
+.Content .Project .box3{
+ grid-area:2 / 1/ 3/ 2;
+ background-color:white;
+ border-left: 8px solid #facc15;
+ border-radius:10px;
+ padding:30px 20px;
+}
+
+.Content .Project .box4{
+ grid-area:2 / 2/ 3/ 3;
+ background-color:white;
+ border-left: 8px solid #facc15;
+ border-radius:10px;
+ padding:30px 20px;
+}
+
+.Content .Project .box5{
+ grid-area:3 / 1/ 4/ 2;
+ background-color:white;
+ border-left: 8px solid #facc15;
+ border-radius:10px;
+ padding:30px 20px;
+}
+
+.Content .Project .box6{
+ grid-area:3 / 2/ 4/ 3;
+ background-color:white;
+ border-left: 8px solid #facc15;
+ border-radius:10px;
+ padding:30px 20px;
+}
+
+.Content .Anoucment-Trending{
+ grid-area:1 /3 / 4/ 4;
+}
+
+.Content .Anoucement, .Trending{
+ background-color:white;
+ border-radius:10px;
+ padding:30px 20px;
+}
+
+.Content .Anoucment-Trending .Trending img{
+ width:60px;
+ height:60px;
+}
+
+.Content .Trending .tred1{
+ display:flex;
+}
+
+.Content .Trending .tred1 p{
+ padding-left:10px;
+ font-size:14px;
+}
+
